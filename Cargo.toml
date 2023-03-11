@@ -1,6 +1,8 @@
 [package]
 name = "pascal_string"
 description = "A macro to convert an identifier to a string literal in pascal case"
+license = "MIT"
+repository = "https://github.com/maheshbansod/pascal_string"
 version = "0.1.0"
 edition = "2021"
 
