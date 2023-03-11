@@ -1,5 +1,5 @@
 [package]
-name = "pascal_string"
+name = "pascal_ident_to_string"
 description = "A macro to convert an identifier to a string literal in pascal case"
 license = "MIT"
 repository = "https://github.com/maheshbansod/pascal_string"

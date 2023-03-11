@@ -1,4 +1,4 @@
-use pascal_string::pascal_string;
+use pascal_ident_to_string::pascal_string;
 
 #[test]
 fn sanity() {
