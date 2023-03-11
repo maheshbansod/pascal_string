@@ -1,5 +1,12 @@
-//! # pascal_string
-//! `pascal_string` exports a procedural macro to converta n identifier to a string literal in pascal case
+//! `pascal_string` exports a procedural macro to convert an identifier to a string literal in pascal case
+//! ## Motivation
+//! I like my identifiers snake-y. The Windows APIs don't. So, this macro helps me with converting the function names
+//! to pascal case string literals before passing them to `GetProcAddress`
+//! ## Example
+//! ```
+//! let my_rusty_ident = pascal_string!(my_rusty_ident);
+//! assert_eq!(my_rusty_ident, "MyRustyIdent");
+//! ```
 
 use inflector::Inflector;
 use proc_macro::{Literal, TokenStream, TokenTree};
