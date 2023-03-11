@@ -2,6 +2,11 @@
 //! ## Motivation
 //! I like my identifiers snake-y. The Windows APIs don't. So, this macro helps me with converting the function names
 //! to pascal case string literals before passing them to `GetProcAddress`
+//! ## Installation
+//! Add it to your project with cargo
+//! ```
+//! cargo add pascal_ident_to_string
+//! ```
 //! ## Example
 //! ```
 //! use pascal_ident_to_string::pascal_string;
